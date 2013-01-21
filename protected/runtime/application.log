@@ -1,0 +1,2318 @@
+2012/11/29 10:33:13 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:33:30 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:34:01 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:34:06 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:35:14 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:35:52 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:37:45 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:38:01 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:39:31 [error] [php] YiiBase::include(PDO.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(421): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#3 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#4 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#5 C:\AppServ\www\yii\framework\base\CModule.php(104): CWebApplication->getComponent()
+#6 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CWebApplication->__get()
+#7 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#8 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): ModelCode->__construct()
+#9 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): ModelGenerator->prepare()
+#10 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): ModelGenerator->actionIndex()
+#11 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\AppServ\www\yii\framework\web\CController.php(287): ModelGenerator->runAction()
+#13 C:\AppServ\www\yii\framework\web\CController.php(266): ModelGenerator->runActionWithFilters()
+#14 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): ModelGenerator->run()
+#15 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\AppServ\www\yii\yii-training\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 10:40:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 10:41:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 10:41:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 10:41:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:42:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:42:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:42:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:43:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 10:45:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:56:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 10:57:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:02:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:02:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:02:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:02:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:02:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:02:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:02:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:04:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:04:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:04:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/module
+---
+2012/11/29 11:05:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 11:08:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:08:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:08:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/controller
+---
+2012/11/29 11:08:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/form
+---
+2012/11/29 11:13:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 11:13:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 11:16:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 11:16:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii/default/index
+---
+2012/11/29 11:17:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:20:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:20:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:20:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:23:36 [error] [exception.CException] exception 'CException' with message 'Property "CDbConnection.Class" is not defined.' in C:\AppServ\www\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\AppServ\www\yii\framework\YiiBase.php(222): CComponent->__set('Class', 'CDbConnection')
+#1 C:\AppServ\www\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#3 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#4 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#5 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#7 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#8 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#13 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:24:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 11:31:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+---
+2012/11/29 14:16:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:40:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:41:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:42:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/crud')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/crud
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:42:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:42:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:42:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:43:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:43:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:43:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:43:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:43:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:44:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=gii
+---
+2012/11/29 14:47:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:47:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:51 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:50:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:51:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:51:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:51:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:51:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:51:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 14:53:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in C:\AppServ\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\AppServ\www\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\AppServ\www\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\AppServ\www\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\AppServ\www\yii\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\AppServ\www\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\AppServ\www\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=gii/model
+---
+2012/11/29 15:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deases".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('deases')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=deases
+---
+2012/11/29 15:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deseases".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('deseases')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=deseases
+---
+2012/11/29 16:11:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii_training/disease`, CONSTRAINT `person_D_fk_DT` FOREIGN KEY (`DiseaseType_id`) REFERENCES `disease_type` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `disease` (`name`, `DiseaseType_id`, `DocumentBundle_id`) VALUES (:yp0, :yp1, :yp2).
+in C:\AppServ\www\yii\yii-training\protected\controllers\DiseaseController.php (73)
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 16:11:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii_training/disease`, CONSTRAINT `person_D_fk_DT` FOREIGN KEY (`DiseaseType_id`) REFERENCES `disease_type` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `disease` (`name`, `DiseaseType_id`, `DocumentBundle_id`) VALUES (:yp0, :yp1, :yp2)' in C:\AppServ\www\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\AppServ\www\yii\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\yii\yii-training\protected\controllers\DiseaseController.php(73): CActiveRecord->save()
+#3 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): DiseaseController->actionCreate()
+#4 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\AppServ\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\AppServ\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\AppServ\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('disease/create')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=disease/create
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=disease/create
+---
+2012/11/29 16:12:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii_training/disease`, CONSTRAINT `person_XD_fk_XDB` FOREIGN KEY (`DocumentBundle_id`) REFERENCES `document_bundle` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `disease` (`name`, `DiseaseType_id`, `DocumentBundle_id`) VALUES (:yp0, :yp1, :yp2).
+in C:\AppServ\www\yii\yii-training\protected\controllers\DiseaseController.php (73)
+in C:\AppServ\www\yii\yii-training\index.php (13)
+2012/11/29 16:12:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`yii_training/disease`, CONSTRAINT `person_XD_fk_XDB` FOREIGN KEY (`DocumentBundle_id`) REFERENCES `document_bundle` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `disease` (`name`, `DiseaseType_id`, `DocumentBundle_id`) VALUES (:yp0, :yp1, :yp2)' in C:\AppServ\www\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\AppServ\www\yii\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\yii\yii-training\protected\controllers\DiseaseController.php(73): CActiveRecord->save()
+#3 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): DiseaseController->actionCreate()
+#4 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\AppServ\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\AppServ\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\AppServ\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('disease/create')
+#14 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\yii\yii-training\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/yii-training/index.php?r=disease/create
+HTTP_REFERER=http://localhost/yii/yii-training/index.php?r=disease/create
+---
+2013/01/15 13:37:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'apartemen.gudang' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `gudang`.
+in C:\AppServ\www\yii\manajemen-apartemen\index.php (13)
+2013/01/15 13:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 13:59:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 14:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 14:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:23:55 [error] [php] YiiBase::include(MasterForm.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php(77): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionMaster()
+#2 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\AppServ\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\AppServ\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+in C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php (77)
+in C:\AppServ\www\yii\manajemen-apartemen\index.php (13)
+2013/01/15 14:23:57 [error] [php] YiiBase::include(MasterForm.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php(77): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionMaster()
+#2 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\AppServ\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\AppServ\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+in C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php (77)
+in C:\AppServ\www\yii\manajemen-apartemen\index.php (13)
+2013/01/15 14:23:58 [error] [php] YiiBase::include(MasterForm.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php(77): spl_autoload_call()
+#1 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionMaster()
+#2 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\AppServ\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\AppServ\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+in C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\SiteController.php (77)
+in C:\AppServ\www\yii\manajemen-apartemen\index.php (13)
+2013/01/15 14:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 14:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 14:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=master/index
+---
+2013/01/15 14:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 15:01:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=master/index
+---
+2013/01/15 15:02:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=master/index
+---
+2013/01/15 15:02:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 15:02:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 15:05:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/15 15:05:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "transaksi".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('transaksi')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('transaksi')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/transaksi')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/transaksi
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/master
+---
+2013/01/15 15:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "master".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('master')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('master')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/master')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/master
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/contact
+---
+2013/01/15 15:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "transaksi".' in C:\AppServ\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CController.php(271): CController->missingAction('transaksi')
+#1 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('transaksi')
+#2 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/transaksi')
+#3 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=site/transaksi
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=master/index
+---
+2013/01/15 15:18:28 [error] [exception.CException] exception 'CException' with message 'Property "Master.id" is not defined.' in C:\AppServ\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\AppServ\www\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\AppServ\www\yii\manajemen-apartemen\protected\views\master\view.php(23): CActiveRecord->__get('id')
+#2 C:\AppServ\www\yii\framework\web\CBaseController.php(127): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\yii\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 C:\AppServ\www\yii\manajemen-apartemen\protected\controllers\MasterController.php(56): CController->render('view', Array)
+#7 [internal function]: MasterController->actionView('1')
+#8 C:\AppServ\www\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(MasterController), Array)
+#9 C:\AppServ\www\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(MasterController), Object(ReflectionMethod), Array)
+#10 C:\AppServ\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\AppServ\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\AppServ\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\AppServ\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\AppServ\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\AppServ\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\AppServ\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\AppServ\www\yii\framework\web\CWebApplication.php(283): CController->run('view')
+#19 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('master/view')
+#20 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=master/view&id=1
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=master/index
+---
+2013/01/15 15:18:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "identitas/admin".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('identitas/admin')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=identitas/admin
+---
+2013/01/15 15:58:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'apartemen.jenis_periji' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `jenis_periji`.
+in C:\AppServ\www\yii\manajemen-apartemen\index.php (13)
+2013/01/21 10:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jenisIdentitas/index".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('jenisIdentitas/...')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=jenisIdentitas/index
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=site/index
+---
+2013/01/21 10:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jenisIdentitas/index".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('jenisIdentitas/...')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=jenisIdentitas/index
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=Penghuni/index
+---
+2013/01/21 10:22:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jenisHubunganPenghuni/index".' in C:\AppServ\www\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('jenisHubunganPe...')
+#1 C:\AppServ\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\yii\manajemen-apartemen\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/manajemen-apartemen/index.php?r=jenisHubunganPenghuni/index
+HTTP_REFERER=http://localhost/yii/manajemen-apartemen/index.php?r=jenisIdentitas/view&id=3
+---
