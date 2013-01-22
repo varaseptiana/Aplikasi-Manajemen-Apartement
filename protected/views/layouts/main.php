@@ -27,7 +27,7 @@
 	</div><!-- header -->
 
 	<div id="mainmenu">
-		<?php $this->widget('ext.mbmenu.MbMenu',array(
+		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'Master',
