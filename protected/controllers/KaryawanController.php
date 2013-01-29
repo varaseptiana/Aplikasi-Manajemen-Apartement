@@ -1,6 +1,6 @@
 <?php
 
-class PenghuniController extends Controller
+class KaryawanController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -44,7 +44,6 @@ class PenghuniController extends Controller
 			),
 		);
 	}
-	
 
 	/**
 	 * Displays a particular model.
@@ -63,16 +62,16 @@ class PenghuniController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Penghuni;
+		$model=new Karyawan;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Penghuni']))
+		if(isset($_POST['Karyawan']))
 		{
-			$model->attributes=$_POST['Penghuni'];
+			$model->attributes=$_POST['Karyawan'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->penghuni_id));
+				$this->redirect(array('view','id'=>$model->karyawan_id));
 		}
 
 		$this->render('create',array(
@@ -92,11 +91,11 @@ class PenghuniController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Penghuni']))
+		if(isset($_POST['Karyawan']))
 		{
-			$model->attributes=$_POST['Penghuni'];
+			$model->attributes=$_POST['Karyawan'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->penghuni_id));
+				$this->redirect(array('view','id'=>$model->karyawan_id));
 		}
 
 		$this->render('update',array(
@@ -123,7 +122,7 @@ class PenghuniController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Penghuni');
+		$dataProvider=new CActiveDataProvider('Karyawan');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -134,10 +133,10 @@ class PenghuniController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Penghuni('search');
+		$model=new Karyawan('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Penghuni']))
-			$model->attributes=$_GET['Penghuni'];
+		if(isset($_GET['Karyawan']))
+			$model->attributes=$_GET['Karyawan'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -151,7 +150,7 @@ class PenghuniController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Penghuni::model()->findByPk($id);
+		$model=Karyawan::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -163,7 +162,7 @@ class PenghuniController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='penghuni-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='karyawan-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

@@ -1,25 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "penghuni".
+ * This is the model class for table "karyawan".
  *
- * The followings are the available columns in table 'penghuni':
- * @property integer $penghuni_id
- * @property integer $jenis_identitas_id
+ * The followings are the available columns in table 'karyawan':
+ * @property integer $karyawan_id
  * @property string $nama_depan
  * @property string $nama_belakang
- * @property string $tanggal_lahir
  * @property integer $kelamin
- * @property string $nomor_identitas
+ * @property integer $nomor_identitas
+ * @property integer $jenis_identitas_id
+ * @property string $alamat
  */
-class Penghuni extends CActiveRecord
+class Karyawan extends CActiveRecord
 {
 	public $nama_jenis_identitas;
-
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Penghuni the static model class
+	 * @return Karyawan the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -31,7 +30,7 @@ class Penghuni extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'penghuni';
+		return 'karyawan';
 	}
 
 	/**
@@ -42,12 +41,11 @@ class Penghuni extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('penghuni_id, jenis_identitas_id, kelamin', 'numerical', 'integerOnly'=>true),
-			array('nama_depan, nama_belakang, nomor_identitas', 'length', 'max'=>255),
-			array('tanggal_lahir', 'safe'),
+			array('karyawan_id, kelamin, nomor_identitas, jenis_identitas_id', 'numerical', 'integerOnly'=>true),
+			array('nama_depan, nama_belakang, alamat', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('penghuni_id, jenis_identitas_id, nama_depan, nama_belakang, tanggal_lahir, kelamin, nomor_identitas, nama_jenis_identitas', 'safe', 'on'=>'search'),
+			array('karyawan_id, nama_depan, nama_belakang, kelamin, nomor_identitas, jenis_identitas_id, alamat, nama_jenis_identitas', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,7 +58,7 @@ class Penghuni extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 		'nama_jenis_identitass' => array(self::BELONGS_TO, 'jenisIdentitas', 'jenis_identitas_id'),
-		);	
+		);
 	}
 
 	/**
@@ -69,13 +67,13 @@ class Penghuni extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'penghuni_id' => 'Penghuni',
-			'jenis_identitas_id' => 'Jenis Identitas',
+			'karyawan_id' => 'Karyawan',
 			'nama_depan' => 'Nama Depan',
 			'nama_belakang' => 'Nama Belakang',
-			'tanggal_lahir' => 'Tanggal Lahir',
 			'kelamin' => 'Kelamin',
 			'nomor_identitas' => 'Nomor Identitas',
+			'jenis_identitas_id' => 'Jenis Identitas',
+			'alamat' => 'Alamat',
 		);
 	}
 
@@ -89,21 +87,20 @@ class Penghuni extends CActiveRecord
 		// should not be searched.
 
 		$criteria=new CDbCriteria;
-
+		
 		$criteria->with=array('nama_jenis_identitass');
-		$criteria->compare('penghuni_id',$this->penghuni_id);
-		//$criteria->compare('jenis_identitas_id',$this->jenis_identitas_id);
-		//$criteria->compare('UPPER("nama_jenis_identitass".nama_jenis_identitas)',strtoupper($this->nama_jenis_identitas),true);
+		$criteria->compare('karyawan_id',$this->karyawan_id);
+		$criteria->compare('jenis_identitas_id',$this->jenis_identitas_id);
 		$criteria->compare('nama_jenis_identitass.nama_jenis_identitas',$this->nama_jenis_identitas,true);
-		$criteria->compare('nomor_identitas',$this->nomor_identitas,true);
+		$criteria->compare('nomor_identitas',$this->nomor_identitas);
 		$criteria->compare('nama_depan',$this->nama_depan,true);
 		$criteria->compare('nama_belakang',$this->nama_belakang,true);
-		$criteria->compare('tanggal_lahir',$this->tanggal_lahir,true);
-		$criteria->compare('kelamin',$this->kelamin);
-		
+		$criteria->compare('kelamin',$this->kelamin);		
+		$criteria->compare('alamat',$this->alamat,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			
 			'sort'=>array(
 				'attributes'=>array(
 					'*',
@@ -113,6 +110,7 @@ class Penghuni extends CActiveRecord
 					),				
 				)	
 			)
+			
 		));
 	}
 }

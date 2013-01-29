@@ -10,7 +10,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('jenis_identitas_id')); ?>:</b>
-	<?php echo CHtml::encode($data->jenis_identitas_id); ?>
+	<?php echo CHtml::encode(jenisIdentitas::model()->findByPk($data->jenis_identitas_id)->nama_jenis_identitas); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('nama_depan')); ?>:</b>
@@ -26,7 +26,7 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('kelamin')); ?>:</b>
-	<?php echo CHtml::encode($data->kelamin); ?>
+	<?php echo CHtml::encode(($data->kelamin == "1")?'Pria':'Perempuan'); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('nomor_identitas')); ?>:</b>

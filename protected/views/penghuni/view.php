@@ -22,11 +22,20 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'penghuni_id',
-		'jenis_identitas_id',
+		//'jenis_identitas_id',
+		array(
+			'header' => 'jenis identitas',
+			'name'=>'jenis_identitas_id',
+			'value'=>jenisIdentitas::model()->findByPk($model->jenis_identitas_id)->nama_jenis_identitas,
+		),
+		'nomor_identitas',
 		'nama_depan',
 		'nama_belakang',
 		'tanggal_lahir',
-		'kelamin',
-		'nomor_identitas',
+		array(
+			'header' => 'kelamin',
+			'name'=>'kelamin',
+			'value'=>('kelamin == "1"')?'Pria':'Perempuan',
+		),
 	),
 )); ?>
